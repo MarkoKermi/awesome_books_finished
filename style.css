@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  background-color: grey;
+}
+
+.links {
+  color: white;
+  display: flex;
+  margin-left: 18px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.ul-links {
+  list-style: none;
+  display: flex;
+  margin-right: 6px;
+  font-weight: bold;
+}
+
+li {
+  margin-right: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(59, 56, 56);
+}
+
+.ul-links li a:hover {
+  color: #2155d8;
+}
+
+.date {
+  padding: 6px 16px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.full {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#form {
+  margin-top: 20px;
+  width: 500px;
+}
+
+#title {
+  width: 500px;
+  height: 30px;
+}
+
+#author {
+  width: 500px;
+  height: 30px;
+}
+
+.btn {
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: grey;
+  color: white;
+  float: right;
+}
+
+#list {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  width: 50rem;
+}
+
+.book:nth-child(odd) {
+  background-color: rgb(245, 240, 240);
+}
+
+.book:nth-child(even) {
+  background-color: white;
+}
+
+.titleAuthor {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  padding-left: 20px;
+}
+
+hr {
+  width: 7rem;
+  margin-top: 18px;
+  margin-bottom: 20px;
+  height: 2px;
+  background-color: rgb(59, 57, 57);
+}
+
+h1 {
+  color: grey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  padding-bottom: 10px;
+  color: white;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#contact-section {
+  margin-top: 20px;
+}
+
+.contact-text {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.contact-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.copyrights {
+  border: 1px solid grey;
+  display: flex;
+  width: 95vw;
+  justify-content: center;
+  margin-left: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-top: 20px;
+  bottom: 0;
+  position: fixed;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: flex;
+}

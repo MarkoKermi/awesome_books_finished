@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome books-matama</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ...///navbar...// -->
+    <nav class="title nav">
+      <a href="index.html"> <h3>Awesome Books.</h3></a>
+      <div class="links">
+        <ul class="ul-links">
+          <li class="listLink">
+            <a id="list-link" href="#" class="links">List</a>
+          </li>
+          <li class="listLink">
+            <a id="add-link" href="#" class="links">Add New</a>
+          </li>
+          <li class="listLink">
+            <a id="contact-link" href="#" class="links">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="date">January 10th 2023. 04:30pm.</div>
+
+    <div class="full">
+      <h1>All Awesome Books</h1>
+      <div id="list" class="list"></div>
+      <div id="addNew" class="hide">
+        <h2>Add a New book</h2>
+        <form name="book" id="form">
+          <input
+            type="text"
+            id="title"
+            name="title"
+            placeholder="Title"
+            required
+          /><br /><br />
+          <input
+            type="text"
+            id="author"
+            name="title"
+            placeholder="Author"
+            required
+          /><br /><br />
+          <button type="submit" id="addButton" class="btn">Add</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- ...../// contact section..// -->
+    <div id="contact-section" class="hide">
+      <h2>Contact information:</h2>
+      <p class="contact-text">
+        Do you have any question or you just want to say "Hello"?, <br />
+        You can reach out to us on:
+      </p>
+      <div class="contact-list">
+        <ul class="contact-list1">
+          <li>Our email: mail@mail.com.</li>
+          <li>Our phone number: 0000000000.</li>
+          <li>Our address: Streethome 34, bill city.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ......///footer.../// -->
+    <footer>
+      <p class="copyrights">Copyrights ...</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

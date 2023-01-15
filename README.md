@@ -60,13 +60,13 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Awesome_project] <a name="awesome_project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**[Awesome books page]** is a book page where you can add and keep your favourite books.
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a name="built-with">HTML_CSS_JS</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -99,9 +99,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[book_titles]**
+- **[authors]**
+- **[add_remove_options]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,6 +138,7 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
+https://github.com/danielmatama/awesome-books-matama.git
 
 <!--
 Example commands:
@@ -207,15 +208,14 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [MarkoKerm](https://github.com/MarkoKermi)
+- Twitter: [@markokerm](https://twitter.com/MarkoKerm)
+- LinkedIn: [markokermichiev](https://www.linkedin.com/in/marko-kermichiev-78b1bb110/)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [DanielMatama](https://github.com/danielmatama)
+- LinkedIn: [DanielMatama](https://www.linkedin.com/in/daniel-matama-9190ba254/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,7 +225,7 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
+- [ ] **[book_list]**
 - [ ] **[new_feature_2]**
 - [ ] **[new_feature_3]**
 
