@@ -1,20 +1,5 @@
-class Books {
-  constructor(array) {
-    this.bookArray = array;
-  }
-
-  bookObj(bookTitle, authorName) {
-    const eachBook = {
-      title: bookTitle,
-      author: authorName,
-    };
-    this.bookArray.push(eachBook);
-  }
-
-  booksFilter(eachBook) {
-    this.bookArray = this.bookArray.filter((book) => book !== eachBook);
-  }
-}
+import Books from "./displayBook.js";
+import { DateTime } from "./luxon/src/luxon.js";
 
 const allBooks = new Books([]);
 
@@ -22,6 +7,12 @@ function addToLocalStorage() {
   const stringifyArray = JSON.stringify(allBooks.bookArray);
   localStorage.setItem("storedBooks", stringifyArray);
 }
+
+const clockElement = document.getElementById("date");
+const clock = () => {
+  clockElement.textContent = DateTime.now().toISO();
+};
+setInterval(clock, 1000);
 
 function displayBook() {
   const addedBooks = document.getElementById("list");
