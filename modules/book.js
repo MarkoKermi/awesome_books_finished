@@ -3,15 +3,15 @@ export default class Books {
     this.bookArray = array;
   }
 
-  bookObj(bookTitle, authorName) {
+  bookObj = (bookTitle, authorName) => {
     const eachBook = {
       title: bookTitle,
       author: authorName,
     };
     this.bookArray.push(eachBook);
-  }
+  };
 
-  booksFilter(eachBook) {
+  booksFilter = (eachBook) => {
     this.bookArray = this.bookArray.filter((book) => book !== eachBook);
-  }
+  };
 }
